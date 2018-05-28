@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-cleint-a/eureka-cleint-a.iml" filepath="$PROJECT_DIR$/eureka-cleint-a/eureka-cleint-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-cleint-a/eureka-cleint-a.iml" filepath="$PROJECT_DIR$/eureka-cleint-a/eureka-cleint-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-b/eureka-client-b.iml" filepath="$PROJECT_DIR$/eureka-client-b/eureka-client-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-b/eureka-client-b.iml" filepath="$PROJECT_DIR$/eureka-client-b/eureka-client-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
     </modules>
   </component>
