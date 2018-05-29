@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Date: Create in 9:33 2018/5/28
  * @Modified By:
  */
-@FeignClient(value="SERVICE-EUREKA")
+@FeignClient(value="SERVICE-EUREKA",fallback = HellowService.class)
 public interface IHellowService {
 
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
