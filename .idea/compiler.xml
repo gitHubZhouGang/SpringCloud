@@ -6,20 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="eureka-cleint-a" />
         <module name="eureka-client-b" />
         <module name="eureka-service" />
         <module name="service-feign" />
         <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-cleint-a" target="1.8" />
       <module name="eureka-client-a" target="1.8" />
       <module name="eureka-client-b" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
